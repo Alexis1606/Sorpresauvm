@@ -1,0 +1,79 @@
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <Button
+        android:text="@string/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_below="@+id/rg"
+        android:id="@+id/bNext"
+        android:onClick="siguiente" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/tPregunta"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentTop="true"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/tPregunta"
+        android:layout_alignLeft="@+id/tPregunta"
+        android:layout_alignStart="@+id/tPregunta"
+        android:id="@+id/rg">
+
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rR1"
+            android:layout_marginTop="28dp" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rR2"
+            android:layout_below="@+id/rR1"
+            android:layout_alignLeft="@+id/rR1"
+            android:layout_alignStart="@+id/rR1"
+            android:layout_marginTop="28dp" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rR2"
+            android:layout_alignRight="@+id/rR2"
+            android:layout_alignEnd="@+id/rR2"
+            android:layout_marginTop="32dp"
+            android:id="@+id/rR3" />
+
+        <RadioButton
+            android:text="RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rR3"
+            android:layout_alignLeft="@+id/rR3"
+            android:layout_alignStart="@+id/rR3"
+            android:layout_marginTop="30dp"
+            android:id="@+id/rR4" />
+
+    </RadioGroup>
+</RelativeLayout>
